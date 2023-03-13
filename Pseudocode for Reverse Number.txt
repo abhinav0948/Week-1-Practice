@@ -1,0 +1,13 @@
+BEGIN
+numeric n,rev=0,rem
+print("enter the number")
+input num
+while (n!=0)
+{
+rem=n%10;
+reverse=rev*10+rem;
+n=n/10;
+}
+printf("Reversed number");
+}
+END

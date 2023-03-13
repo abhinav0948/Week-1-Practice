@@ -1,0 +1,19 @@
+BEGIN
+numeric n,i=1,count=0
+while(n>1)
+{
+if(n%i==0)
+{
+count=count+1
+i++
+}
+if(count=2)
+{
+print ("prime")
+}
+else
+{
+print("not prime")
+}
+}
+END
