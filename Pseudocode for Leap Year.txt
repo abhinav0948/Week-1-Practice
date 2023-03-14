@@ -1,0 +1,8 @@
+BEGIN
+numeric a,b
+print("enter a")
+input a
+b=(a%4==0 && a%400=0 && a%100!=0)leap year:not leap;
+print("b")
+}
+END
