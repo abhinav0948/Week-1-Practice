@@ -1,0 +1,13 @@
+BEGIN
+numeric n,i=1
+print enter number
+input n
+while(i<=n)
+{
+if(i%2==0)
+{
+print("i")
+} 
+i++
+}
+END

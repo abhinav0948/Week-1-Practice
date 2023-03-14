@@ -1,0 +1,15 @@
+Begin
+numeric num,i=1,sum=0
+print enter number
+input num
+while(i<num)
+{
+if(n%i==0)
+sum=sum+i;
+   i++;
+}
+if(sum==num)
+print perfect number
+else
+print not perfect number
+}

@@ -1,0 +1,14 @@
+Begin
+numeric n,i=1,count=0
+print enter number
+input n
+while(i<=n/2)
+{
+if(num%i==0)
+{
+count++
+}
+i++
+}
+print factor
+End

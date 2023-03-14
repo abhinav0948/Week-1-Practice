@@ -1,0 +1,12 @@
+begin
+    numeric num=1,n
+    print("enter the value of n")
+    input n
+    do{
+      if(num%2==0){
+      print(num)
+      }
+      num++
+      }
+       while (num<=n)
+end
